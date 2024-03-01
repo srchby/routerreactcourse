@@ -2,9 +2,9 @@ function Home () {
     return (
         <div>
             <h1>Home</h1>
-            <a>
+            <p>
                 Basic exercises for React Router.
-            </a>
+            </p>
         </div>
     )
 }
