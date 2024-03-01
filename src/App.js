@@ -10,6 +10,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import RootLayout from './pages/RootLayout';
 import CourseLayout from './pages/CourseLayout';
+import Video from './pages/course/Video';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,7 +18,7 @@ const router = createBrowserRouter(
       <Route path='/' element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path='course' element={<CourseLayout />}>
-        <Route path='video' />
+        <Route path='video' element={<Video />}/>
       </Route>
     </Route>
   )
