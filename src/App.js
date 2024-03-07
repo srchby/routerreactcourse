@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import RootLayout from './pages/RootLayout';
 import CourseLayout from './pages/CourseLayout';
 import Video from './pages/course/Video';
+import Notfound from './pages/Notfound';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path='course' element={<CourseLayout />}>
         <Route path='video' element={<Video />}/>
       </Route>
+      <Route path='*' element={<Notfound />}/>
     </Route>
   )
 )
