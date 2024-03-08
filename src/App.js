@@ -12,7 +12,7 @@ import RootLayout from './pages/RootLayout';
 import CourseLayout from './pages/CourseLayout';
 import Video from './pages/course/Video';
 import Notfound from './pages/Notfound';
-import Database, { databaseLoader } from './pages/course/Database';
+import Database, { databaseLoader } from './pages/Database/Database';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
