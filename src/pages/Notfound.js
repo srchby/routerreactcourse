@@ -9,7 +9,7 @@ export default function Notfound() {
       <p>
         Page not found
       </p>
-      <p> Go to Homepage: <Link to='/'> Link </Link></p>
+      <p> Go to Homepage: <Link to='/' className="linktext"> Link </Link></p>
     </div>
   )
 }
